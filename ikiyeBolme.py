@@ -1,5 +1,6 @@
 import math
 
+# Kullanıcı tanımlı fonksiyon
 def f(x):
     return 4.5 * x - 2 * math.cos(x)
 
@@ -21,13 +22,13 @@ def ikiyeBolme(alt_sinir, ust_sinir, tol=1e-6, max_iter=100):
 
     return orta_nokta, (alt_sinir, ust_sinir)
 
-# Kullanıcıdan alt ve üstü sınırı iste 
+# Kullanıcıdan alt ve üst sınırlar alınır
 alt_sinir = float(input("Alt sınırı girin: "))
 ust_sinir = float(input("Üst sınırı girin: "))
-# iterasyon sayısını al
+# İterasyon sayısı alınır
 iterasyon_sayisi = int(input("Iterasyon sayısını girin: "))
 
-# Fonksiyonu çalıştır
+
 kok, aralik = ikiyeBolme(alt_sinir, ust_sinir, max_iter=iterasyon_sayisi)
 
 
