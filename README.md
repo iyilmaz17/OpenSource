@@ -3,8 +3,7 @@ Açık kaynak yazılım geliştirme dersi ödevleri için oluşturulmuştur.
 
 1.Hafta  
 
-Ders için bir repo oluşturuldu ve repo içerisinde doğrusal olmayan eşitsizliklerin çözümünde kullanılan ikiye bölme yönteminin temel algoritması python üzerinde yazıldı.  
+Ders için bir repo oluşturuldu ve api eklendi  
 
-Kodun açıklaması
+Api üzerimde kayıt edilen kullanıncaya random_password metodu tarafından otomatik olarak bir şifre oluşturmasını ve bunu veri kaynağına kayıt edilmesi sağladı
 
-F metodu içerisine girilen fonksiyonun kullanıcı tarafından belirtilen alt ve üst sınırları içeresinde yine kullanıcı tarafından belirlenen iterasyon sayısında bulunan kök aralıkları ekrana yazdırılır belirlenerek ekrana yazdırılır.
