@@ -8,6 +8,7 @@ Api üzerimde kayıt edilen kullanıncaya random_password metodu tarafından oto
 
 2.Ödev  
 https://dog.ceo/dog-api/documentation/breed adresinde ücretsiz olarak rastgele köpek resimleri getiren bir apiye istek atıldı. Apiye istek atılırken köpek cinsini kullanıcı tarafından girilmesi gereklidir.  
+  
 3.Ödev  
 Flask uygulamasının Gunicorn ve Nginx üzerinde yayına alınması.  
 
